@@ -1,0 +1,12 @@
+1-Clean end rebuild your project
+From Android studio menu: File->Invalidate cache/restart, then clean and rebuild project
+If none of above helps, close Android studio and remove ~/.gradle directory. Then run Android Studio, open your project, wait for finish sync, then rebuild project
+Also make sure your gradle configuration is correct and resource xml files syntax is correct.
+2-Update drivers.
+Disable Instant run.
+Enable USB debugging.
+Rebuild the project.
+Sync with Gradle.
+Run Invalidate caches/restart.
+Reinstall Android Studio.
+3-This error can be resolved by using a try-catch block or an if-else condition to check if a reference variable is null before dereferencing it.
